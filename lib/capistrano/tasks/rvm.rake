@@ -9,7 +9,7 @@ namespace :rvm do
       if fetch(:log_level) == :debug
         puts capture(:rvm, "version")
         puts capture(:rvm, "current")
-        puts capture(:ruby, "--version")
+        #puts capture(:ruby, "--version")
       end
     end
   end
